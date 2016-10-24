@@ -37,6 +37,8 @@ body a:hover{
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
+    background-attachment: fixed;
+    background-position-y : center; 
 	position: relative;
 }
 .banner-info{
