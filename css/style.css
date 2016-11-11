@@ -57,6 +57,17 @@ body a:hover{
     color: #fff;
     margin: 0.5em 0 0;
 }
+
+.header-right h1 span{
+    font-size: 1.2em;
+    color: #fff;
+    display: block;
+    line-height: 1.2;
+}
+.header-right h1 span:first-of-type{
+    display: inline-block;
+    border-bottom: 4px solid #fff;
+}
 .header-right h2 {
     font-size: 1.2em;
     color: #000;
@@ -683,6 +694,38 @@ h2.resp-accordion {
     text-decoration: none;
 }
 /*--//slider-up-arrow--*/
+
+#myModal .modal-content{
+    background: rgba(0,0,0,0.8);
+}
+#myModal .close{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #008B8B;
+    border: 3px solid #008b8b;
+    opacity: 1;
+    border-radius: 100%;
+    padding: 0px 4px;
+    text-shadow: none; 
+}
+#myModal .modal-body{
+  color: #fff;
+}
+#myModal .modal-body p{
+  text-align: center;
+  font-size: 18px;
+}
+
+#myModal .modal-body p span{
+  font-family: 'Overlock', cursive;
+  font-size: 24px;
+  display: block;
+}
+
+.modal-open .top-nav{
+  right: 17px !important; 
+}
 /*---- responsive-design -----*/
 @media(max-width:1366px){
 .about,.work,.education,.skills,.portfolio,.contact {

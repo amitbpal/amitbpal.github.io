@@ -4,7 +4,6 @@ $(function(){
 	$('#contact').on('submit',function(e){
 		console.log("form submitted")
 		e.preventDefault();
-		alert("ok")
 		$.ajax({
 		   url: "https://formspree.io/amit210889@gmail.com", 
 		   method: "POST",
@@ -17,8 +16,8 @@ $(function(){
 		   dataType: "json"
 		})
 		.done(function(){
+			$('form').reset()
 			console.debug('Form submiited successfully');
-			alert("Form submiited successfully !!!")
 		})
 
 	})
